@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		1C019F4B23CAF4E8000A3C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C019F4A23CAF4E8000A3C0F /* AppDelegate.swift */; };
 		1C019F4D23CAF4E8000A3C0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C019F4C23CAF4E8000A3C0F /* SceneDelegate.swift */; };
-		1C019F4F23CAF4E8000A3C0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C019F4E23CAF4E8000A3C0F /* ViewController.swift */; };
+		1C019F4F23CAF4E8000A3C0F /* TampilanHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C019F4E23CAF4E8000A3C0F /* TampilanHomeViewController.swift */; };
 		1C019F5223CAF4E8000A3C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C019F5023CAF4E8000A3C0F /* Main.storyboard */; };
 		1C019F5423CAF4EC000A3C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C019F5323CAF4EC000A3C0F /* Assets.xcassets */; };
 		1C019F5723CAF4EC000A3C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C019F5523CAF4EC000A3C0F /* LaunchScreen.storyboard */; };
+		1C019F5F23CAFD58000A3C0F /* ParkirKeluarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C019F5E23CAFD58000A3C0F /* ParkirKeluarViewController.swift */; };
+		1C019F6123CAFD6E000A3C0F /* ParkirMasukViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C019F6023CAFD6E000A3C0F /* ParkirMasukViewController.swift */; };
+		1C019F6523CB25C3000A3C0F /* Kendaraan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C019F6423CB25C3000A3C0F /* Kendaraan.swift */; };
+		1C6CBBDE23CB30580071D8F6 /* InputParkirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CBBDD23CB30580071D8F6 /* InputParkirViewController.swift */; };
+		1C8F84DE23CB45B000FD8FAD /* KondisiParkirTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F84DC23CB45B000FD8FAD /* KondisiParkirTableViewCell.swift */; };
+		1C8F84DF23CB45B000FD8FAD /* KondisiParkirTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F84DD23CB45B000FD8FAD /* KondisiParkirTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C019F4723CAF4E8000A3C0F /* ParkirPrasmul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkirPrasmul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C019F4A23CAF4E8000A3C0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C019F4C23CAF4E8000A3C0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C019F4E23CAF4E8000A3C0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C019F4E23CAF4E8000A3C0F /* TampilanHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TampilanHomeViewController.swift; sourceTree = "<group>"; };
 		1C019F5123CAF4E8000A3C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C019F5323CAF4EC000A3C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C019F5623CAF4EC000A3C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C019F5823CAF4EC000A3C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C019F5E23CAFD58000A3C0F /* ParkirKeluarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkirKeluarViewController.swift; sourceTree = "<group>"; };
+		1C019F6023CAFD6E000A3C0F /* ParkirMasukViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkirMasukViewController.swift; sourceTree = "<group>"; };
+		1C019F6423CB25C3000A3C0F /* Kendaraan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kendaraan.swift; sourceTree = "<group>"; };
+		1C6CBBDD23CB30580071D8F6 /* InputParkirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputParkirViewController.swift; sourceTree = "<group>"; };
+		1C8F84DC23CB45B000FD8FAD /* KondisiParkirTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KondisiParkirTableViewCell.swift; sourceTree = "<group>"; };
+		1C8F84DD23CB45B000FD8FAD /* KondisiParkirTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KondisiParkirTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,76 @@
 			children = (
 				1C019F4A23CAF4E8000A3C0F /* AppDelegate.swift */,
 				1C019F4C23CAF4E8000A3C0F /* SceneDelegate.swift */,
-				1C019F4E23CAF4E8000A3C0F /* ViewController.swift */,
-				1C019F5023CAF4E8000A3C0F /* Main.storyboard */,
+				1C019F6623CB25CC000A3C0F /* Model */,
+				1C019F6823CB25F6000A3C0F /* View */,
+				1C019F6723CB25E0000A3C0F /* Controller */,
 				1C019F5323CAF4EC000A3C0F /* Assets.xcassets */,
 				1C019F5523CAF4EC000A3C0F /* LaunchScreen.storyboard */,
 				1C019F5823CAF4EC000A3C0F /* Info.plist */,
 			);
 			path = ParkirPrasmul;
+			sourceTree = "<group>";
+		};
+		1C019F6623CB25CC000A3C0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C019F6423CB25C3000A3C0F /* Kendaraan.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1C019F6723CB25E0000A3C0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CBBD723CB2EBD0071D8F6 /* Home */,
+				1C6CBBD823CB2EC80071D8F6 /* KondisiParkir */,
+				1C6CBBD923CB2EDA0071D8F6 /* ParkirMasuk */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C019F6823CB25F6000A3C0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C019F5023CAF4E8000A3C0F /* Main.storyboard */,
+				1C8F84E023CBC89F00FD8FAD /* KondisiParkirTableViewCell */,
+			);
+			name = View;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C6CBBD723CB2EBD0071D8F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1C019F4E23CAF4E8000A3C0F /* TampilanHomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1C6CBBD823CB2EC80071D8F6 /* KondisiParkir */ = {
+			isa = PBXGroup;
+			children = (
+				1C019F5E23CAFD58000A3C0F /* ParkirKeluarViewController.swift */,
+			);
+			path = KondisiParkir;
+			sourceTree = "<group>";
+		};
+		1C6CBBD923CB2EDA0071D8F6 /* ParkirMasuk */ = {
+			isa = PBXGroup;
+			children = (
+				1C019F6023CAFD6E000A3C0F /* ParkirMasukViewController.swift */,
+				1C6CBBDD23CB30580071D8F6 /* InputParkirViewController.swift */,
+			);
+			name = ParkirMasuk;
+			sourceTree = "<group>";
+		};
+		1C8F84E023CBC89F00FD8FAD /* KondisiParkirTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1C8F84DC23CB45B000FD8FAD /* KondisiParkirTableViewCell.swift */,
+				1C8F84DD23CB45B000FD8FAD /* KondisiParkirTableViewCell.xib */,
+			);
+			path = KondisiParkirTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8F84DF23CB45B000FD8FAD /* KondisiParkirTableViewCell.xib in Resources */,
 				1C019F5723CAF4EC000A3C0F /* LaunchScreen.storyboard in Resources */,
 				1C019F5423CAF4EC000A3C0F /* Assets.xcassets in Resources */,
 				1C019F5223CAF4E8000A3C0F /* Main.storyboard in Resources */,
@@ -138,9 +214,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C019F4F23CAF4E8000A3C0F /* ViewController.swift in Sources */,
+				1C8F84DE23CB45B000FD8FAD /* KondisiParkirTableViewCell.swift in Sources */,
+				1C019F6123CAFD6E000A3C0F /* ParkirMasukViewController.swift in Sources */,
+				1C019F4F23CAF4E8000A3C0F /* TampilanHomeViewController.swift in Sources */,
+				1C6CBBDE23CB30580071D8F6 /* InputParkirViewController.swift in Sources */,
 				1C019F4B23CAF4E8000A3C0F /* AppDelegate.swift in Sources */,
+				1C019F6523CB25C3000A3C0F /* Kendaraan.swift in Sources */,
 				1C019F4D23CAF4E8000A3C0F /* SceneDelegate.swift in Sources */,
+				1C019F5F23CAFD58000A3C0F /* ParkirKeluarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
