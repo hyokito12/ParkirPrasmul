@@ -92,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				1C6CBBD723CB2EBD0071D8F6 /* Home */,
-				1C6CBBD823CB2EC80071D8F6 /* KondisiParkir */,
 				1C6CBBD923CB2EDA0071D8F6 /* ParkirMasuk */,
+				1C6CBBD823CB2EC80071D8F6 /* ParkirKeluar */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -116,12 +116,12 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
-		1C6CBBD823CB2EC80071D8F6 /* KondisiParkir */ = {
+		1C6CBBD823CB2EC80071D8F6 /* ParkirKeluar */ = {
 			isa = PBXGroup;
 			children = (
 				1C019F5E23CAFD58000A3C0F /* ParkirKeluarViewController.swift */,
 			);
-			path = KondisiParkir;
+			path = ParkirKeluar;
 			sourceTree = "<group>";
 		};
 		1C6CBBD923CB2EDA0071D8F6 /* ParkirMasuk */ = {
