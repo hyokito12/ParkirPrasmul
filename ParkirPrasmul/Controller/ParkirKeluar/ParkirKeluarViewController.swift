@@ -21,6 +21,7 @@ class ParkirKeluarViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         parkirKeluarTableView.register(UINib(nibName: "KondisiParkirTableViewCell", bundle: nil), forCellReuseIdentifier: "KondisiParkirTableViewCell")
+        parkirKeluarTableView.separatorColor = .clear
         
         for index in UnicodeScalar("A").value...UnicodeScalar("I").value {
             if let identitasParkir = defaults.object(forKey: "parkir\(UnicodeScalar(index) ?? "O")") as? Data {
@@ -59,7 +60,7 @@ extension ParkirKeluarViewController: UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "KondisiParkirTableViewCell", for: indexPath) as! KondisiParkirTableViewCell
         
-        cell.slotParkir.text = slotParkir[indexPath.row]
+        cell.slotParkir.text = "SLOT \(slotParkir[indexPath.row])"
         cell.noPlat.text = nomerPlat[indexPath.row]
         cell.jenKendaraan.text = jnsKendaraan[indexPath.row]
         cell.pengendara.text = pngendara[indexPath.row]
@@ -87,6 +88,10 @@ extension ParkirKeluarViewController: UITableViewDelegate, UITableViewDataSource
         
         // Present the controller
         self.present(alertController, animated: true, completion: nil)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 150
     }
     
     

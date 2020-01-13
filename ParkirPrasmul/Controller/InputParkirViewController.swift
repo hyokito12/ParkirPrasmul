@@ -14,6 +14,7 @@ class InputParkirViewController: UIViewController {
     @IBOutlet weak var platNomorTextField: UITextField!
     @IBOutlet weak var jenisKendaraanSegmentedControl: UISegmentedControl!
     @IBOutlet weak var pengendaraSegmentedControl: UISegmentedControl!
+    @IBOutlet weak var simpanButton: UIButton!
     var slotParkir = String()
     var jenisKendaraan = String()
     var pengendara = String()
@@ -22,6 +23,7 @@ class InputParkirViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        simpanButton.layer.cornerRadius = 10
         parkirLabel.text = slotParkir
     }
     

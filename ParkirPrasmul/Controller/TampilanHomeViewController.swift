@@ -10,16 +10,15 @@ import UIKit
 
 class TampilanHomeViewController: UIViewController {
 
+    @IBOutlet weak var masukButton: UIButton!
+    @IBOutlet weak var keluarButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let defaults = UserDefaults.standard
-        if let identitasParkir = defaults.object(forKey: "parkirE") as? Data {
-            let decoder = JSONDecoder()
-            if let loadedParkir = try? decoder.decode(identitasKendaraan.self, from: identitasParkir){
-                print(loadedParkir)
-            }
-        }
+        masukButton.layer.cornerRadius = 20
+        keluarButton.layer.cornerRadius = 20
     }
     
     //Fungsi untuk tombol masuk kendaraan
